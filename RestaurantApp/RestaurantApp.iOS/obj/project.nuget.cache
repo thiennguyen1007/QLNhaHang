@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dvZu2STteBlfUelx4u1kMkVHLOoXSs1fERSzjwlA37/IyLq5RpQs/Y3pAltZQeCKY3Oh9h76rYRzgceXsj9YTw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thien\\OneDrive\\Documents\\Visual Studio 2019\\RestaurantApp\\RestaurantApp\\RestaurantApp.iOS\\RestaurantApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thien\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.0.0.5\\xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

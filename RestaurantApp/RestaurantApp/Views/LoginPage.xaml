@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RestaurantApp.Views.LoginPage"
+             xmlns:vm="clr-namespace:RestaurantApp.ViewModels"
+             Shell.NavBarIsVisible="False"
+             Title="Login">
+    <ContentPage.BindingContext>
+        <vm:LoginViewModel x:Name="vm"/>
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <StackLayout.Background>
+            <LinearGradientBrush>
+                <GradientStopCollection>
+                    <GradientStop Color="#161616" Offset="0"/>
+                    <GradientStop Color="#4E5054" Offset="1"/>
+                </GradientStopCollection>
+            </LinearGradientBrush>
+        </StackLayout.Background>
+        <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+            <Frame HeightRequest="150" Padding="0" Margin="0">
+                <Image Source="img_login_banner.jpg" 
+                           Aspect="AspectFill" Margin="0"
+                           x:Name="img" Opacity="0.7"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Padding="10,5,10,5" Margin="10,-60,10,5"
+                         HorizontalOptions="FillAndExpand">
+            <Frame BackgroundColor="#FFFFFF" HeightRequest="500" 
+                       HasShadow="True"  Margin="0"
+                       CornerRadius="30" BorderColor="#FFBE00"
+                       Padding="0">
+                <StackLayout>
+                    <StackLayout Margin="10">
+                        <Label Text="SnailB Restaurant" TextColor="Black" 
+                               HorizontalOptions="CenterAndExpand" 
+                               FontAttributes="Bold" FontSize="25"/>
+                    </StackLayout>
+
+                    <!--email-->
+                    <StackLayout Padding="0" Margin="15,10">
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" 
+								Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="Transparent" 
+                                       HeightRequest="35" 
+                                       WidthRequest="45" CornerRadius="30" 
+                                       Padding="0" Margin="5">
+                                    <Image Source="user.png" Aspect="AspectFill" HeightRequest="30" WidthRequest="30" Margin="0"/>
+                                </Frame>
+                                <Entry Placeholder="Email" TextColor="#194D33" 
+                                       FontAttributes="None" HorizontalOptions="FillAndExpand" 
+                                       Margin="5,0,20,0" x:Name="Email"
+                                       Keyboard="Email" Text="{Binding UserName}"/>
+                            </StackLayout>
+                        </Frame>
+                        <!--#end email-->
+
+                        <!--password-->
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" 
+                               Margin="0,15,0,0" Padding="0" 
+                               HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="Transparent" 
+                                       HeightRequest="35" 
+                                       WidthRequest="45" 
+                                       CornerRadius="30" 
+                                       Padding="0" Margin="5">
+                                    <Image Source="padlock.jpg"  Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+                                <Entry Placeholder="Password" IsPassword="True" 
+                                       TextColor="#194D33" FontAttributes="None" 
+                                       HorizontalOptions="FillAndExpand" Margin="5,0,20,0"
+                                       x:Name="PassWord" Text="{Binding Pass}"/>
+                            </StackLayout>
+                        </Frame>
+                        <!--#end password-->
+
+                        <StackLayout  Orientation="Horizontal">
+                            <CheckBox IsChecked="False" Color="#B71C1C" />
+                            <Label Text="Remember me" TextColor="DarkGray" 
+                                   FontSize="Small" VerticalTextAlignment="Center" 
+                                   HorizontalTextAlignment="Center" />
+                            <Label Text="Forgot Password" 
+                                   TextColor="#B71C1C" 
+                                   FontAttributes="Bold" 
+                                   HorizontalOptions="EndAndExpand" 
+                                   FontSize="Small" 
+                                   VerticalTextAlignment="Center"
+                                   HorizontalTextAlignment="Center" />
+                        </StackLayout>
+                        <!--button-->
+                        <Button Text="SIGN IN" BackgroundColor="#FFBE00" 
+                                TextColor="White" CornerRadius="30" 
+                                FontAttributes = "Bold" x:Name="btn_login" 
+                                Command="{Binding LoginCommand}" Margin="20, 50,20, 0"/>
+                        <Label Text="Sign up" TextColor="#B71C1C" 
+                                   FontAttributes="Bold" FontSize="Small"
+                                   Margin="0,5,0,0" HorizontalOptions="Center"/>
+
+                        <BoxView BackgroundColor="DarkGray" 
+                                 HeightRequest="1" 
+                                 WidthRequest="150"  
+                                 HorizontalOptions="Center" 
+                                 VerticalOptions="Center"
+                                 Margin="0,10,0,0"/>
+
+                        <StackLayout Orientation="Horizontal" 
+                                     HorizontalOptions="CenterAndExpand">
+                            <Image Source="facebook.png" Aspect="AspectFill" Margin="0,10,0,0"/>
+                            <Image Source="google.png" Aspect="AspectFill" Margin="0,10,0,0"/>
+                        </StackLayout>
+                        
+                    </StackLayout>
+                </StackLayout>
+
+            </Frame>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestaurantApp.Views.GioHangPage"
+             Title="My Bag"
+             xmlns:vm="clr-namespace:RestaurantApp.ViewModels">
+    <ContentPage.BindingContext>
+        <vm:GioHangViewModel x:Name="vm"/>
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <Grid RowDefinitions="3*, 1.5*">
+            <ScrollView Grid.Row="0">
+                <StackLayout Orientation="Vertical" BindableLayout.ItemsSource="{Binding menuList}">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BackgroundColor="#C5CDC9" CornerRadius="10" Margin="10,5,10,0">
+                                <Grid ColumnDefinitions="1.5*,2.5*,0.5*">
+                                    <Image Grid.Column="0" Source="{Binding Image}" WidthRequest="80" HeightRequest="80" HorizontalOptions="Start" 
+                               VerticalOptions="Start" />
+                                    <StackLayout Grid.Column="1" Spacing="5" WidthRequest="115">
+                                        <Label Text="{Binding Title}" TextColor="Black" FontSize="18" FontAttributes="Bold"/>
+                                        <Label Text="{Binding Price}" TextColor="Black" FontSize="16"/>
+                                        <Stepper x:Name="stepper_SL" HeightRequest="40" Increment="1" Maximum="50" Minimum="0" 
+                                         />
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="2">
+                                        <Label Text="{Binding Source={x:Reference stepper_SL}, Path=Value}" 
+                                       FontSize="20" TextColor="Black" Margin="0" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </StackLayout>
+            </ScrollView>
+            <Frame Grid.Row="1" BackgroundColor="#F5FEC3">
+                <StackLayout Margin="0">
+                    <StackLayout Orientation="Horizontal" Margin="0">
+                        <Label Text="Tong Tien:" HorizontalOptions="Start" FontSize="20" TextColor="Black"/>
+                        <Label Text="300$" HorizontalOptions="End" FontSize="20" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Nguoi nhan:" FontSize="15"/>
+                        <Entry Placeholder="Name" TextColor="Black" BackgroundColor="Transparent"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="So dien thoai:" FontSize="15" TextColor="Black"/>
+                        <Entry Placeholder="phone number" BackgroundColor="Transparent" TextColor="Black"/>
+                    </StackLayout>
+                    
+                    <Button Text="Thanh Toan" FontSize="20" FontAttributes="Bold" CornerRadius="10" BackgroundColor="#FFBE00"
+                            Margin="20,20,20,0" TextTransform="Uppercase" Command="{Binding ThanhToanCommand}"/> 
+                </StackLayout>
+            </Frame>
+        </Grid>
+        
+    </StackLayout>
+
+</ContentPage>

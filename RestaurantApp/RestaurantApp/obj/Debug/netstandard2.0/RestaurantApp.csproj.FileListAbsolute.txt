@@ -1,0 +1,45 @@
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\bin\Debug\netstandard2.0\RestaurantApp.deps.json
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\bin\Debug\netstandard2.0\RestaurantApp.dll
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\bin\Debug\netstandard2.0\ref\RestaurantApp.dll
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\bin\Debug\netstandard2.0\RestaurantApp.pdb
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.csprojAssemblyReference.cache
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\Start.xaml.g.cs
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.AssemblyInfoInputs.cache
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.AssemblyInfo.cs
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.csproj.CoreCompileInputs.cache
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.dll
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\ref\RestaurantApp.dll
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.pdb
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\OrderPage.xaml.g.cs
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\MyProfile.xaml.g.cs
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\UserLogged.xaml.g.cs
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\GioHangPage.xaml.g.cs
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Admin.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\bin\Debug\netstandard2.0\RestaurantApp.deps.json
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\bin\Debug\netstandard2.0\RestaurantApp.dll
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\bin\Debug\netstandard2.0\ref\RestaurantApp.dll
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\bin\Debug\netstandard2.0\RestaurantApp.pdb
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.csprojAssemblyReference.cache
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Admin.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\GioHangPage.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\InforThanhToanPage.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\MyProfile.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\OrderPage.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\OrderPage_logged.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\Start.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\UserLogged.xaml.g.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.AssemblyInfoInputs.cache
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.AssemblyInfo.cs
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.csproj.CoreCompileInputs.cache
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.dll
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\ref\RestaurantApp.dll
+D:\file_tam\New folder\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\RestaurantApp.pdb
+C:\Users\thien\OneDrive\Documents\Visual Studio 2019\RestaurantApp\RestaurantApp\RestaurantApp\obj\Debug\netstandard2.0\Views\NhanVienPage.xaml.g.cs

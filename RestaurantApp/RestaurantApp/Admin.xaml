@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestaurantApp.Admin"
+             xmlns:local="clr-namespace:RestaurantApp.Views" 
+                xmlns:vm="clr-namespace:RestaurantApp.ViewModels"
+            Title="My Infor"
+             NavigationPage.HasNavigationBar="False">
+    <Shell.BindingContext>
+        <vm:AdminPageViewModel x:Name="vm"/>
+    </Shell.BindingContext>
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+              HeightRequest="200">
+                <Image Aspect="AspectFill"
+                   Source="SnailB.png"
+                   Opacity="0.6"/>
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    <FlyoutItem Title="Admin" Icon="icon_about.png" Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <Tab>
+            <ShellContent IsTabStop="True">
+                <local:AboutPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Nhân viên" Icon="nhanVien.png">
+        <ShellContent Route="NhanVienPage" ContentTemplate="{DataTemplate local:NhanVienPage}" IsTabStop="True"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Kho Chứa" Icon="khoChua.png">
+        <ShellContent></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Báo Cáo" Icon="baoCao.png">
+        <ShellContent></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Bàn" Icon="table.png">
+        <ShellContent></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Hóa Đơn" Icon="hoaDon.png">
+        <ShellContent></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Lương Thưởng" Icon="luongThuong.png">
+        <ShellContent></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Món Ăn" Icon="monAn.png">
+        <ShellContent></ShellContent>
+    </FlyoutItem>
+
+    <ShellContent Title="About" Icon="icon_about.png" ContentTemplate="{DataTemplate local:AboutPage}"/>
+    <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" x:Name="Logout" Command="{Binding LogoutCommand}"/>
+
+</Shell>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestaurantApp.Views.NhanVienPage"
+             Title="Nhan Vien">
+    <StackLayout>
+        <Frame CornerRadius="10" BorderColor="Black" Margin="10,20,10,0">
+            <StackLayout Margin="10,20,10,0" Spacing="20">
+                <Label Text="Dien thong tin de thanh toan" TextColor="black" FontSize="25"/>
+                <Entry Placeholder="Name" BackgroundColor="Transparent" 
+                       TextColor="Black" Keyboard="Text" x:Name="txt_name"/>
+                <DatePicker/>
+                <Entry Placeholder="Dia chi" BackgroundColor="Transparent" TextColor="Black"/>
+                <Entry Placeholder="So dien thoai" BackgroundColor="Transparent" 
+                       TextColor="Black" Keyboard="Numeric" x:Name="txt_SDT"/>
+                <Entry Placeholder="Anh ca nhan" BackgroundColor="Transparent" 
+                       TextColor="Black"/>
+                <Entry Placeholder="Ghi chu" BackgroundColor="Transparent" 
+                       TextColor="Black"/>
+                <Button Text="OK" FontAttributes="Bold" Font="20"/>
+            </StackLayout>
+        </Frame>
+
+    </StackLayout>
+</ContentPage>
